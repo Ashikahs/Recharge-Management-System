@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <script src="successfully.js"></script>
+      
+    </head>
+    <body>
+        <h1>Login Form</h1>
+        <div class="reg">
+            <form id="reg" method="POST" action="insert1.php">
+                <h2>Login Here</h2>
+                <label>Username:</label><br>
+                <input type="text" name="username" placeholder="Enter username" id="username" required/></br></br>
+                <label>Email:</label><br>
+                <input type="email" name="email" placeholder="Enter your mail id" id="name" required><br><br>
+                <label>Password:</label><br>
+                <input type="password" name="pwd1" placeholder="Enter your password" id="password"/></br></br> 
+                  <input type="button" value="Login" name="sub" id="sub" onclick="validate()"/></br></br>  
+                  <p>Don't have an account? <a href="login1.html">Register here</a></p>                           
+            </form>
+        </div>
+    </body>
+</html>
